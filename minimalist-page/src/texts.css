@@ -1,0 +1,25 @@
+.lets-design-section h1, svg{
+  display: inline-block;
+  justify-content: space-between;
+}
+.lets-design-section svg{
+    margin-left: 10px;
+}
+
+.texts-sections .text1,.text2{
+font-style: normal;
+font-weight: 900;
+font-size: 38px;
+line-height: 64px;
+text-align: center;
+color: #1B1C23;
+}
+
+.texts-sections .text3{
+font-style: normal;
+font-weight: 900;
+font-size: 38px;
+line-height: 55px;
+text-align: center;
+color: #FF694B;
+}

@@ -1,0 +1,47 @@
+.ourServices-section h1{
+color: #1B1C23;
+font-style: normal;
+font-weight: 700;
+margin-bottom: -5px ;
+flex-wrap: wrap;
+}
+
+.ourServices-section .services-section-bottom{
+    margin-top: -100px;
+}
+
+.ourServices-section img{
+    display: block;
+    height: auto;
+    overflow: hidden;
+    max-width: 100%;
+    width: auto;
+    flex-wrap: wrap;
+}
+
+.ourServices-section .BS, .MD, .FT{
+    margin-top: -90px;
+    
+}
+
+.ourServices-section .BS, .MD, .FT, .UED, .WD, .DM{
+    margin-left: -10px;
+}
+
+@media(max-width:1000px){
+    .ourServices-section .BS, .MD, .FT{
+        margin-top: -50px;
+    }
+}
+
+@media(max-width:700px){
+    .ourServices-section{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-top: auto;
+    }
+
+}

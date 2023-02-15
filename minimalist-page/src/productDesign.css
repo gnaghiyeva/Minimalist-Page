@@ -1,0 +1,29 @@
+.left-side-productDesign{
+    background-image: url("./assets/images/cream.svg");
+}
+.left-side-productDesign h6{
+  color: #757683;
+  margin-bottom: -20px;
+}
+
+.left-side-productDesign p{
+font-weight: 600;
+font-size: 20px;
+color: #1B1C23;
+}
+
+
+.right-side-productDesign{
+    background-image: url("./assets/images/violet.svg");
+}
+
+.right-side-productDesign h6{
+    color: #757683;
+    margin-bottom: -20px;
+  }
+  
+  .right-side-productDesign p{
+  font-weight: 600;
+  font-size: 20px;
+  color: #1B1C23;
+  }

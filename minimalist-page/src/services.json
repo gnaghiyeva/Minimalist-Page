@@ -1,0 +1,40 @@
+[
+    {
+        "id":1,
+        "title":"User Experience Design",
+        "body": "Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmo.",
+        "image":"../assets/images/services/service-1.svg"
+    },
+    {
+        "id":2,
+        "title":"Web Design And Development",
+        "body": "Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmo.",
+        "image":"../assets/images/services/service-2.svg"
+    },
+    {
+        "id":3,
+        "title":"Digital Marketing",
+        "body": "Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmo.",
+        "image":"../assets/images/services/service-3.svg"
+    },
+
+    {
+        "id":4,
+        "title":"Business Strategy",
+        "body": "Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmo.",
+        "image":"../assets/images/services/service-4.svg"
+    },
+
+    {
+        "id":5,
+        "title":"Web and Mobile App Design",
+        "body": "Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmo.",
+        "image":"../assets/images/services/service-5.svg"
+    },
+    {
+        "id":6,
+        "title":"Front-end Development",
+        "body": "Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmo.",
+        "image":"../assets/images/services/service-6.svg"
+    }
+]

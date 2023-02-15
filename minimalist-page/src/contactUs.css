@@ -1,0 +1,54 @@
+.contact-section{
+    background-image: url("./assets/images/contactUsBackground.svg");
+}
+
+
+.contact-section .right-side .mt-5{
+font-style: normal;
+font-weight: 900;
+font-size: 38px;
+line-height: 55px;
+color: #FFFFFF;
+
+}
+
+.contact-section .right-side .h1-2{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 55px;
+    color: #FFFFFF;
+    
+    }
+
+.contact-section .right-side p{
+ font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #A6A7AE;
+    }
+
+    @media(max-width:1100px){
+          .contact-section .left-side .computer{
+            max-width: 300px;
+           
+          }
+
+          .contact-section .right-side h1{
+            font-size: 25px !important; 
+            text-align: center;
+            margin-top: -100px;
+          }
+
+          .contact-section .right-side p{
+            text-align: center;
+          }
+
+        
+    }
+
+    

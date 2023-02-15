@@ -1,0 +1,162 @@
+.educationAndExperience-section{
+   display: flex;
+   margin: 0 auto;
+   padding-top: 74px;
+   flex-wrap: wrap;
+}
+
+.education-side{
+    
+    flex-basis: 50%;
+   min-width: 400px;
+  
+}
+
+.education-side > h1{
+   margin-bottom: 43px ;
+
+}
+.education-side  .education{
+    border-bottom: 1px solid #dedede;
+    padding: 20px 20px 20px 0;
+}
+
+.education-side .education .education-top h1{
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 28px;
+color: #1B1C23;
+}
+
+.education-side .education .education-bottom .span-1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #757683;
+}
+
+.education-side .education .education-bottom .span-2{
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+text-align: right;
+color: #757683;
+}
+
+.education-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.education-bottom >span:nth-child(2){
+    /* margin-top: 40px; */
+    
+    margin-right: 40px;
+}
+
+.experience-section{
+    display: flex;
+    align-items: center;
+}
+
+.experience-section > svg{
+    /* background-color: red; */
+    flex-basis: 20%;
+    
+}
+
+.experience-side{ 
+    flex: 1;
+    min-width: 400px;
+    
+}
+
+
+.experience-side > h1{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 43px ;
+
+}
+
+.experience-section .experience{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-bottom: 1px solid #dedede;
+    padding: 20px 20px 20px 0;
+   
+}
+
+.experience-section .experience .experience-top h1{
+    font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 28px;
+color: #1B1C23;
+}
+
+.experience-section .experience .experience-bottom .span-1{
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #757683;
+}
+
+.experience-section .experience .experience-bottom .span-2{
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: right;
+color: #757683;
+}
+
+.experience-top{
+    display: flex;
+    justify-content: space-between;
+    /* padding-bottom:25px ; */
+
+}
+
+
+
+.experience-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.experience-bottom span{
+    /* margin-top: 40px; */
+
+}
+.experience-bottom >span:nth-child(2){
+    margin-right: 40px;
+}
+
+
+@media(max-width:900px){
+    .education-side{
+        flex: 1;
+    }
+
+   
+}
+
+@media(max-width:1000px){
+    .educationAndExperience-section{
+        overflow-x: hidden;
+    }
+}

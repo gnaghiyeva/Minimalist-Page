@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+body{
+  background-color: white;
+  font-family: 'Open Sans',sans-serif !important;
+}
+
+/* OVERLAY KOMPONENTIN STILI*/
+
+.overlay{
+  background-color: rgba(26, 18, 4, 0.8);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  overflow-x: hidden;
+  z-index: 9;
+  transition: width 1.7s linear ;
+}
+
+.nav-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.nav-links a{
+  text-decoration: none;
+  font-size: 44px;
+  color: #ccc;
+  transition: all 1.2s ease;
+}
+
+.nav-links a:hover{
+  color: white;
+  transform: translateX(50px);
+}
+
+.cross-icon{
+  position: absolute;
+  right: 40px;
+  font-size: 38px;
+  color: #FF694B;
+  top: 44px;
+  cursor: pointer;
+}
+
+.aktiv{
+  width:100% ;
+}
+
+
+.wrapper{
+  padding: 0 200px;
+}
+
+
+/*NAVBAR COMPONENT START*/
+
+#start{
+    color: #FF694B;
+}
+.my-custom-btn{
+  background: #FF694B;
+  border-radius: 5px;
+  padding: 15px 30px;
+  
+}
+
+.nav-link{
+  font-weight: 600;
+  font-size: 15px;
+  position: relative;
+  padding:20px;
+  margin-right: 5px;
+  text-align: center;
+
+   
+}
+
+.nav-link::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 70%;
+  height: 5px;
+  transform: scaleX(0);
+  transform-origin: right;
+  background-color: black;
+  transition: transform 1.2s ease;
+}
+
+.nav-link:hover::before{
+  transform: scaleX(1);
+  transform-origin: left;
+
+}
+
+.bars-icon{
+  color: #FF694B;
+  font-size: 24px;
+  display: none;
+  
+}
+
+@media(max-width:1280px) and (min-width:600px){
+  /* nav ul{
+    display: none !important;
+  } */
+
+  .wrapper{
+    padding: 0 50px;
+  }
+}
+
+@media (max-width:987px){
+  .bars-icon{
+    display: block !important;
+  }
+  .wrapper{
+    padding: 0 50px;
+  }
+}
+/*NAVBAR COMPONENT end*/
+
+
+
+
+/*Introduction start*/
+
+.introduction{
+    color: white;
+    padding-top: 35px;
+  }
+  
+  .introduction h5{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    /* Primary Color */
+    color: #FF694B;
+  }
+
+  
+  
+  .introduction .left-side{
+    padding-top: 80px ;
+  }
+  
+  
+  .introduction h1{
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  
+  /* identical to box height, or 29px */
+  
+  text-transform: uppercase;
+  
+  /* #3A68B8 */
+  
+  color: black;
+  
+  }
+  
+  .left-side h1{
+    font-style: normal;
+    font-weight: 700;
+
+/* Dark */
+
+color: #1B1C23;
+    
+  }
+
+
+  .introduction p{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 160%;
+  
+  /* or 29px */
+  
+  
+  /* #FFFFFF */
+  
+  color: black;
+  
+  opacity: 0.7;
+  margin-top: 40px;
+  }
+
+  .introduction .p-1{
+    border-left: 1px solid #dedede;
+  }
+
+  .introduction .iconOx{
+    position: absolute;
+    left: 200px;
+    top: 480px;
+  } 
+  .introduction .hire{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 21px;
+    margin-top: -30px;
+    margin-left: 60px;
+/* identical to box height */
+
+
+/* Dark */
+
+    color: #1B1C23;
+  }
+
+  .introduction .proud{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px; 
+    line-height: 16px;
+
+/* Body Text */
+
+color: #757683;
+padding-top: 10px;
+  } 
+
+
+
+  .right-side-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 10%;
+
+  }
+
+.right-side-right .span-1{
+  font-weight: 500;
+  font-size: 16px;
+  color:#757683;
+  ;
+}
+.right-side-right .span-2{
+  text-decoration: underline;
+  color: #FF694B;
+  line-height: 21px;
+  font-style: normal;
+}
+
+.right-side-right h4{
+  font-weight: 700;
+  color: black;
+  font-size: 22px;
+}
+
+.right-side-right h6{
+  font-weight: 500;
+  font-size: 22px;
+  color: black;
+}
+
+@media(max-width:1210px){
+  .introduction .left-side h1{
+    text-align: center;
+    font-size: 25px;
+    overflow: hidden;
+  }
+
+  .introduction .left-side p{
+    font-size: 10px;
+  }
+
+ 
+}
+
+@media(max-width:760px){
+  .introduction .left-side h1,p,h5{
+    text-align: center;
+  }
+
+  .introduction .left-side p{
+    font-size: 13px;
+  }
+  .introduction .left-side #iconOx{
+    margin-left: 120px;
+  }
+
+  .introduction .right-side .right-side-right, span,h4,h6,a{
+    text-align: center;
+    font-size: 15px;
+     
+  }
+}
+
+@media (max-width:500px){
+  .introduction .left-side .iconOx,.hire{
+    display: inline-block;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .introduction .left-side .hire{
+    margin-left: 20px;
+    font-size: 14px;
+  }
+
+  .introduction .left-side .proud{
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+  /*Introduction end*/
+
+
+  

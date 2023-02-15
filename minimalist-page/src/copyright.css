@@ -1,0 +1,13 @@
+.copyright-section{
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #899098;
+}
+
+@media(max-width:800px){
+    .copyright-section{
+        overflow: hidden;
+    }
+}
